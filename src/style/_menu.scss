@@ -1,0 +1,59 @@
+.menu_sec {
+    background-image: url(../assets/font/bac2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.menu_page{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    img{
+        width: 63px;
+    }
+
+}
+.your_head{
+    text-align: center;
+    font-family: $fonts;
+    padding: 15px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    color: $white_color;
+
+}
+.lorem_1{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: $gray_color;
+}
+.logo_0
+{
+    position: relative;
+    color: #fff;
+    font-size: 5em;
+    text-shadow: 0 0 50px $aqua,
+                0 0 100px $aqua,
+                0 0 150px $aqua,
+                0 0 200px $aqua,
+                0 0 250px $aqua;
+    animation: animate 1s linear infinite;    
+}
+@keyframes animate
+{
+    0%
+    {
+        filter: hue-rotate(0deg);
+    }
+    100%
+    {
+        filter: hue-rotate(360deg);
+    }
+}

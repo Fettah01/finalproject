@@ -1,0 +1,48 @@
+.sec_3{
+    background-image: url(../assets/font/IMG_1334_72dpi_RGB_\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.video_page{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+
+    p{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: $white_color;    
+    }
+}
+.lern_1{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: $white_color;
+}
+
+.play {
+    width: 150px;
+    height: 150px;
+    background-color: $aqua;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0px;
+    img{
+        transform: translateX(5px);
+    }
+    }
+    
+

@@ -1,0 +1,23 @@
+{
+  "name": "itpu-finalproject",
+  "version": "1.0.0",
+  "description": "My Final Project for Web Development Discipline",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/Viktoriia.Mironova/itpu-finalproject.git"
+  },
+  "author": "Viktoriia Mironova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Viktoriia.Mironova/itpu-finalproject/issues"
+  },
+  "homepage": "https://gitlab.com/Viktoriia.Mironova/itpu-finalproject#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

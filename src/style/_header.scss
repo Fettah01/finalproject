@@ -1,0 +1,79 @@
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    width: 100%; 
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    
+
+    input[type=checkbox] {
+       display: none;
+    }
+
+    .project {
+        font-family: $fonts;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 16px;
+        color: $white_color;
+        text-transform: uppercase;
+            
+    }
+
+    .ul {
+        
+        display: flex;
+        align-items: center;
+        font-family: sans-serif;
+        font-family: normal;
+        order: 2;
+        
+
+        & a {
+            font-family: $fonts;
+            font-size: 14px;
+            line-height: 16px;
+            font-weight: 400;
+            color: $white_color;
+            letter-spacing: 0.2em;
+            padding: 6px;
+            margin: 0px 30px;
+            
+
+            &:hover{
+                border-bottom: 3px solid aqua;
+                color:aqua ;
+                
+            }
+
+        }
+    }
+
+    .toggle {
+        order: 3;
+    }
+    
+}
+/*.ul li a::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 100%;
+    background-color: $aqua;
+    transition: 0.4 transform;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.ul li a:hover::before{
+    transform: scaleX(1);
+    transform-origin: right;
+}*/

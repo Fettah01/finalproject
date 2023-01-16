@@ -1,0 +1,64 @@
+.textpage{
+    padding: 60px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .this_is{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 64px;
+        text-align: center;
+        color: $dark_gray;
+    }
+    .lorem_2{
+        font-family: 'Source Sans Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: $gray;
+        padding: 35px 0px;
+    }
+   
+    .lorem02{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between; 
+
+        p {
+            font-family: sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: $gray;
+        padding: 20px;
+        }
+    }
+    .read_1{
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.1rem;
+        color: $white_color;
+        background-color: $aqua;
+        border-radius: 18px;
+        padding: 5px 18px;
+        margin-top: 25px;
+        transition: .3s;
+        cursor: pointer;
+
+        &:hover {
+        transform: skewX(-30deg);
+        }
+
+    }
+        
+    }
